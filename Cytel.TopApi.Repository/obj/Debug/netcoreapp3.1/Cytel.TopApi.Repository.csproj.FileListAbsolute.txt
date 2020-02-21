@@ -1,0 +1,11 @@
+D:\Projects\Cytel\Cytel.TopApi.Repository\bin\Debug\netcoreapp3.1\Cytel.TopApi.Repository.deps.json
+D:\Projects\Cytel\Cytel.TopApi.Repository\bin\Debug\netcoreapp3.1\Cytel.TopApi.Repository.dll
+D:\Projects\Cytel\Cytel.TopApi.Repository\bin\Debug\netcoreapp3.1\Cytel.TopApi.Model.dll
+D:\Projects\Cytel\Cytel.TopApi.Repository\bin\Debug\netcoreapp3.1\Cytel.TopApi.Model.pdb
+D:\Projects\Cytel\Cytel.TopApi.Repository\obj\Debug\netcoreapp3.1\Cytel.TopApi.Repository.csprojAssemblyReference.cache
+D:\Projects\Cytel\Cytel.TopApi.Repository\obj\Debug\netcoreapp3.1\Cytel.TopApi.Repository.AssemblyInfoInputs.cache
+D:\Projects\Cytel\Cytel.TopApi.Repository\obj\Debug\netcoreapp3.1\Cytel.TopApi.Repository.AssemblyInfo.cs
+D:\Projects\Cytel\Cytel.TopApi.Repository\obj\Debug\netcoreapp3.1\Cytel.TopApi.Repository.csproj.CopyComplete
+D:\Projects\Cytel\Cytel.TopApi.Repository\bin\Debug\netcoreapp3.1\Cytel.TopApi.Repository.pdb
+D:\Projects\Cytel\Cytel.TopApi.Repository\obj\Debug\netcoreapp3.1\Cytel.TopApi.Repository.dll
+D:\Projects\Cytel\Cytel.TopApi.Repository\obj\Debug\netcoreapp3.1\Cytel.TopApi.Repository.pdb

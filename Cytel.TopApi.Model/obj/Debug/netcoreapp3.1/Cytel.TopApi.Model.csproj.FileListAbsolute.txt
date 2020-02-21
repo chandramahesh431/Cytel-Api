@@ -1,0 +1,8 @@
+D:\Projects\Cytel\Cytel.TopApi.Model\bin\Debug\netcoreapp3.1\Cytel.TopApi.Model.deps.json
+D:\Projects\Cytel\Cytel.TopApi.Model\bin\Debug\netcoreapp3.1\Cytel.TopApi.Model.dll
+D:\Projects\Cytel\Cytel.TopApi.Model\bin\Debug\netcoreapp3.1\Cytel.TopApi.Model.pdb
+D:\Projects\Cytel\Cytel.TopApi.Model\obj\Debug\netcoreapp3.1\Cytel.TopApi.Model.AssemblyInfoInputs.cache
+D:\Projects\Cytel\Cytel.TopApi.Model\obj\Debug\netcoreapp3.1\Cytel.TopApi.Model.AssemblyInfo.cs
+D:\Projects\Cytel\Cytel.TopApi.Model\obj\Debug\netcoreapp3.1\Cytel.TopApi.Model.dll
+D:\Projects\Cytel\Cytel.TopApi.Model\obj\Debug\netcoreapp3.1\Cytel.TopApi.Model.pdb
+D:\Projects\Cytel\Cytel.TopApi.Model\obj\Debug\netcoreapp3.1\Cytel.TopApi.Model.csprojAssemblyReference.cache
