@@ -11,15 +11,31 @@ using System.Threading.Tasks;
 
 namespace Cytel.Top.Api.Services
 {
+    /// <summary>
+    /// Service class created for performing Create and Read S3 bucket operations
+    /// </summary>
     public class S3Service : IS3Service
     {
+        /// <summary>
+        /// Interface for Accessing S3
+        /// </summary>
         private readonly IAmazonS3 _client;
+
+        /// <summary>
+        /// Constructor for S3 Service , accepts S3 interface object as parameter
+        /// </summary>
+        /// <param name="client"></param>
         public S3Service(IAmazonS3 client)
         {
             _client = client;
 
         }
 
+        /// <summary>
+        /// Function that Creates S3 Bucket using AmazonS3Util methods
+        /// </summary>
+        /// <param name="bucketName"></param>
+        /// <returns></returns>
         public async Task<S3Response> CreateBucketAsync(string bucketName)
         {
             try
@@ -63,6 +79,12 @@ namespace Cytel.Top.Api.Services
             };
         }
 
+        /// <summary>
+        /// Reads Objects from S3 using S3 interface
+        /// </summary>
+        /// <param name="bucketName"></param>
+        /// <param name="keyName"></param>
+        /// <returns></returns>
         public async Task<string> GetObjectFromS3Async(string bucketName, string keyName)
         {
       

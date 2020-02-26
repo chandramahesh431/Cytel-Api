@@ -16,8 +16,8 @@ D:\CytelProjects\CytelPoc\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.T
 D:\CytelProjects\CytelApi\Cytel.Top.SQS\bin\Debug\netcoreapp3.1\Cytel.Top.SQS.deps.json
 D:\CytelProjects\CytelApi\Cytel.Top.SQS\bin\Debug\netcoreapp3.1\Cytel.Top.SQS.dll
 D:\CytelProjects\CytelApi\Cytel.Top.SQS\bin\Debug\netcoreapp3.1\Cytel.Top.SQS.pdb
-D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.csprojAssemblyReference.cache
 D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.AssemblyInfoInputs.cache
 D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.AssemblyInfo.cs
 D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.dll
 D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.pdb
+D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.csprojAssemblyReference.cache

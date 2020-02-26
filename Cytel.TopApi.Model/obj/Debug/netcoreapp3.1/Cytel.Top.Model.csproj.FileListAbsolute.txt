@@ -23,8 +23,8 @@ D:\CytelProjects\CytelPoc\CytelApi\Cytel.TopApi.Model\obj\Debug\netcoreapp3.1\Cy
 D:\CytelProjects\CytelApi\Cytel.TopApi.Model\bin\Debug\netcoreapp3.1\Cytel.Top.Model.deps.json
 D:\CytelProjects\CytelApi\Cytel.TopApi.Model\bin\Debug\netcoreapp3.1\Cytel.Top.Model.dll
 D:\CytelProjects\CytelApi\Cytel.TopApi.Model\bin\Debug\netcoreapp3.1\Cytel.Top.Model.pdb
-D:\CytelProjects\CytelApi\Cytel.TopApi.Model\obj\Debug\netcoreapp3.1\Cytel.Top.Model.csprojAssemblyReference.cache
 D:\CytelProjects\CytelApi\Cytel.TopApi.Model\obj\Debug\netcoreapp3.1\Cytel.Top.Model.AssemblyInfoInputs.cache
 D:\CytelProjects\CytelApi\Cytel.TopApi.Model\obj\Debug\netcoreapp3.1\Cytel.Top.Model.AssemblyInfo.cs
 D:\CytelProjects\CytelApi\Cytel.TopApi.Model\obj\Debug\netcoreapp3.1\Cytel.Top.Model.dll
 D:\CytelProjects\CytelApi\Cytel.TopApi.Model\obj\Debug\netcoreapp3.1\Cytel.Top.Model.pdb
+D:\CytelProjects\CytelApi\Cytel.TopApi.Model\obj\Debug\netcoreapp3.1\Cytel.Top.Model.csprojAssemblyReference.cache

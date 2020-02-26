@@ -5,6 +5,10 @@ using Cytel.Top.Model;
 
 namespace Cytel.Top.Repository
 {
+    /// <summary>
+    /// Interface used to create an abstraction layer for the database operations.
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public interface IRepository<T> where T : BaseEntity
     {
         void Add(T item);

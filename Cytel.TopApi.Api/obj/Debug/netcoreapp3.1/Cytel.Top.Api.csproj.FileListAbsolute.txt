@@ -343,10 +343,15 @@ D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\Cytel.Top.SQS
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\Cytel.Top.Api.csprojAssemblyReference.cache
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\staticwebassets\Cytel.Top.Api.StaticWebAssets.Manifest.cache
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\staticwebassets\Cytel.Top.Api.StaticWebAssets.xml
-D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\Cytel.Top.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\Cytel.Top.Api.AssemblyInfoInputs.cache
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\Cytel.Top.Api.AssemblyInfo.cs
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\Cytel.Top.Api.RazorTargetAssemblyInfo.cache
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\Cytel.Top.Api.csproj.CopyComplete
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\Cytel.Top.Api.dll
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\Cytel.Top.Api.pdb
+D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\Cytel.Top.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\Cytel.Top.Api.MvcApplicationPartsAssemblyInfo.cache

@@ -5,29 +5,23 @@ using System;
 
 namespace Cytel.Top.SQS
 {
+   /// <summary>
+   /// SQS Client class used for sending messages to SQS 
+   /// </summary>
     public class SQSClient: IDisposable
     {
 
-        // Track whether Dispose has been called.
         private bool disposed = false;
 
+        /// <summary>
+        /// Function sends message to SQS queue
+        /// </summary>
+        /// <param name="messge"></param>
+        /// <param name="deduplicationID"></param>
         public void SendMessageTOSQS(string messge,string deduplicationID)
         {
             IAmazonSQS sqs = new AmazonSQSClient(RegionEndpoint.APSouth1);
             var queueUrl = "https://sqs.ap-south-1.amazonaws.com/066325793814/Cytelpoc.fifo";
-            //var sqsRequest = new CreateQueueRequest()
-            //{
-            //    QueueName = "CytelSimulationQueueTest",
-            //};
-            //var createQueueResponse = sqs.CreateQueueAsync(sqsRequest).Result;
-            //var myQueueQurl = createQueueResponse.QueueUrl;
-            //var listQueuesRequest = new ListQueuesRequest();
-            //var listQueuesResponse = sqs.ListQueuesAsync(listQueuesRequest);
-            //Console.WriteLine("List of Queues");
-            //foreach(var queueUrl in listQueuesResponse.Result.QueueUrls)
-            //{
-            //    Console.WriteLine($"Queue Url: {queueUrl}");
-            //}
 
             var sqsmessageRequest = new SendMessageRequest()
             {
@@ -37,13 +31,6 @@ namespace Cytel.Top.SQS
                 MessageDeduplicationId = $"CytelDedup{deduplicationID}"
             };
             sqs.SendMessageAsync(sqsmessageRequest);
-        }
-
-        // Generate a random number between two numbers    
-        public int RandomNumber(int min, int max)
-        {
-            Random random = new Random();
-            return random.Next(min, max);
         }
 
         public void Dispose()
@@ -65,6 +52,10 @@ namespace Cytel.Top.SQS
                 disposed = true;
             }
         }
+
+        /// <summary>
+        /// Destructor to dispose the method
+        /// </summary>
         ~SQSClient()
         {
             Dispose(false);

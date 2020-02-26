@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Cytel.Top.Api.Controllers
 {
+    /// <summary>
+    /// Api controller performing S3 Bucket operations
+    /// </summary>
     [Produces("application/json")]
     [Route("api/S3Bucket")]
     public class S3BucketController : ControllerBase
@@ -19,6 +22,13 @@ namespace Cytel.Top.Api.Controllers
             _service = service;
         }
 
+        /// <summary>
+        /// Function to create an S3 bucket in AWS cloud, bucket name can be
+        /// provided as function parameter
+        /// 
+        /// </summary>
+        /// <param name="bucketName"></param>
+        /// <returns></returns>
         [HttpPost("{bucketName}")]
         public async Task<IActionResult> CreateBucket([FromRoute] string bucketName) 
         {
@@ -26,6 +36,12 @@ namespace Cytel.Top.Api.Controllers
             return Ok(response);
         }
 
+        /// <summary>
+        /// Function Reads the S3 object based on the key provided.
+        /// </summary>
+        /// <param name="bucketName"></param> S3 Bucket name
+        /// <param name="keyName"></param> Key name in the S3 bucket
+        /// <returns></returns>
         [HttpGet("GetFile/{bucketName}/{keyname}")]
         public async Task<IActionResult> GetObjectFromS3Async([FromRoute] string bucketName,string keyName)
         {
