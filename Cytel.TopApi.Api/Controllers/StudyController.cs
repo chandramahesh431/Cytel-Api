@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using Cytel.Top.Api.Interfaces;
+using Cytel.Top.Api.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using Cytel.Top.Model;
-using Cytel.Top.Repository;
+using System.Collections.Generic;
 
 
 namespace Cytel.Top.Api.Controllers
@@ -20,15 +15,15 @@ namespace Cytel.Top.Api.Controllers
         /// <summary>
         /// Study Repository Object
         /// </summary>
-        private readonly StudyRepository customerRepository;
+        private readonly IStudyService _studyService;
 
         /// <summary>
         /// Injecting the configuration object to the constructor
         /// </summary>
         /// <param name="configuration"></param>
-        public StudyController(IConfiguration configuration)
+        public StudyController(IStudyService studyService)
         {
-            customerRepository = new StudyRepository(configuration);
+            _studyService = studyService;
         }
 
        /// <summary>
@@ -39,7 +34,7 @@ namespace Cytel.Top.Api.Controllers
         [Route("api/studies")]
         public IEnumerable<Study> Get()
         {
-            IEnumerable<Study> listAll = customerRepository.FindAll();
+            IEnumerable<Study> listAll = _studyService.FindAll();
             return listAll;
         }
 
@@ -51,7 +46,7 @@ namespace Cytel.Top.Api.Controllers
         [Route("api/studies")]
         public void Post(Study _input)
         {
-            customerRepository.Add(_input);
+            _studyService.Add(_input);
         }
     }
 }

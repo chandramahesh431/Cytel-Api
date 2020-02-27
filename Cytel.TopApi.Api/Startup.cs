@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Amazon.S3;
+using Cytel.Top.Api.Interfaces;
 using Cytel.Top.Api.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -38,11 +39,14 @@ namespace Cytel.Top.Api
                 });
             });
             services.AddControllers();
+
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Cytel API", Version = "v1" });
             });
+
+            services.AddScoped<IStudyService, StudyService>();
             services.AddSingleton<IS3Service, S3Service>();
             services.AddAWSService<IAmazonS3>();
         }

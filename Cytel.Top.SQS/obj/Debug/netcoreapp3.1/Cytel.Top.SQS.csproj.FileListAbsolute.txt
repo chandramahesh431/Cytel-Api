@@ -20,4 +20,3 @@ D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.As
 D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.AssemblyInfo.cs
 D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.dll
 D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.pdb
-D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.csprojAssemblyReference.cache

@@ -334,11 +334,7 @@ D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\ru\Microsoft.
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\Cytel.Top.Model.dll
-D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\Cytel.Top.Repository.dll
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\Cytel.Top.SQS.dll
-D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\Cytel.Top.Model.pdb
-D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\Cytel.Top.Repository.pdb
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\bin\Debug\netcoreapp3.1\Cytel.Top.SQS.pdb
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\Cytel.Top.Api.csprojAssemblyReference.cache
 D:\CytelProjects\CytelApi\Cytel.TopApi.Api\obj\Debug\netcoreapp3.1\staticwebassets\Cytel.Top.Api.StaticWebAssets.Manifest.cache

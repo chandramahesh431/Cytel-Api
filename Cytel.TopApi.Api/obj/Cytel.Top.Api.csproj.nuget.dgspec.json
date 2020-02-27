@@ -85,11 +85,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Model\\Cytel.Top.Model.csproj": {
-                "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Model\\Cytel.Top.Model.csproj"
-              },
-              "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Repository\\Cytel.Top.Repository.csproj": {
-                "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Repository\\Cytel.Top.Repository.csproj"
+              "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj": {
+                "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj"
               }
             }
           }
@@ -111,6 +108,10 @@
               "target": "Package",
               "version": "[3.3.110.25, )"
             },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -122,6 +123,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.3.1, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
@@ -150,139 +155,6 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Model\\Cytel.Top.Model.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Model\\Cytel.Top.Model.csproj",
-        "projectName": "Cytel.Top.Model",
-        "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Model\\Cytel.Top.Model.csproj",
-        "packagesPath": "C:\\Users\\jithendrank\\.nuget\\packages\\",
-        "outputPath": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Model\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\jithendrank\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Repository\\Cytel.Top.Repository.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Repository\\Cytel.Top.Repository.csproj",
-        "projectName": "Cytel.Top.Repository",
-        "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Repository\\Cytel.Top.Repository.csproj",
-        "packagesPath": "C:\\Users\\jithendrank\\.nuget\\packages\\",
-        "outputPath": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Repository\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\jithendrank\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj": {
-                "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj"
-              },
-              "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Model\\Cytel.Top.Model.csproj": {
-                "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Model\\Cytel.Top.Model.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.0.30, )"
-            },
-            "Microsoft.Extensions.Configuration.Abstractions": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "Microsoft.Extensions.Primitives": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
-            },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[4.1.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

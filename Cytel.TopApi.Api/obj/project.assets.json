@@ -700,7 +700,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/12.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -709,7 +709,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Npgsql/4.1.3": {
+      "Npgsql/4.1.3.1": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.6.0"
@@ -2054,35 +2054,6 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Cytel.Top.Model/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Cytel.Top.Model.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Cytel.Top.Model.dll": {}
-        }
-      },
-      "Cytel.Top.Repository/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Cytel.Top.Model": "1.0.0",
-          "Cytel.Top.SQS": "1.0.0",
-          "Dapper": "2.0.30",
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.2",
-          "Microsoft.Extensions.Primitives": "3.1.2",
-          "Newtonsoft.Json": "12.0.3",
-          "Npgsql": "4.1.3"
-        },
-        "compile": {
-          "bin/placeholder/Cytel.Top.Repository.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Cytel.Top.Repository.dll": {}
-        }
-      },
       "Cytel.Top.SQS/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -3201,10 +3172,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/12.0.3": {
-      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package",
-      "path": "newtonsoft.json/12.0.3",
+      "path": "newtonsoft.json/11.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3227,15 +3198,14 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
-    "Npgsql/4.1.3": {
-      "sha512": "sWTXCb6WPPO7WEw4+1XoRqE49EdWmuyMA15LVbzV6jZgRxYWK8TbdniWMjguzmAgOZVYTmrCf+jsqPYoSqACvA==",
+    "Npgsql/4.1.3.1": {
+      "sha512": "354pl/Picmt5/AIrm8urFwtxfK4n4NbmfBnLA9yvP8VtILSQF3/sFo3+lGuz+q4iyD18QeNFy0NMNBzsocFVlw==",
       "type": "package",
-      "path": "npgsql/4.1.3",
+      "path": "npgsql/4.1.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3251,7 +3221,7 @@
         "lib/netstandard2.1/Npgsql.dll",
         "lib/netstandard2.1/Npgsql.pdb",
         "lib/netstandard2.1/Npgsql.xml",
-        "npgsql.4.1.3.nupkg.sha512",
+        "npgsql.4.1.3.1.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
       ]
@@ -6872,16 +6842,6 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Cytel.Top.Model/1.0.0": {
-      "type": "project",
-      "path": "../Cytel.TopApi.Model/Cytel.Top.Model.csproj",
-      "msbuildProject": "../Cytel.TopApi.Model/Cytel.Top.Model.csproj"
-    },
-    "Cytel.Top.Repository/1.0.0": {
-      "type": "project",
-      "path": "../Cytel.TopApi.Repository/Cytel.Top.Repository.csproj",
-      "msbuildProject": "../Cytel.TopApi.Repository/Cytel.Top.Repository.csproj"
-    },
     "Cytel.Top.SQS/1.0.0": {
       "type": "project",
       "path": "../Cytel.Top.SQS/Cytel.Top.SQS.csproj",
@@ -6892,11 +6852,12 @@
     ".NETCoreApp,Version=v3.1": [
       "AWSSDK.Extensions.NETCORE.Setup >= 3.3.100.1",
       "AWSSDK.S3 >= 3.3.110.25",
-      "Cytel.Top.Model >= 1.0.0",
-      "Cytel.Top.Repository >= 1.0.0",
+      "Cytel.Top.SQS >= 1.0.0",
+      "Dapper >= 2.0.30",
       "Microsoft.AspNetCore.Cors >= 2.2.0",
       "Microsoft.Extensions.Configuration >= 3.1.2",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.1",
+      "Npgsql >= 4.1.3.1",
       "Swashbuckle.AspNetCore.Swagger >= 5.0.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 5.0.0",
       "Swashbuckle.AspNetCore.SwaggerUI >= 5.0.0"
@@ -6928,11 +6889,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Model\\Cytel.Top.Model.csproj": {
-              "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Model\\Cytel.Top.Model.csproj"
-            },
-            "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Repository\\Cytel.Top.Repository.csproj": {
-              "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Repository\\Cytel.Top.Repository.csproj"
+            "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj": {
+              "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj"
             }
           }
         }
@@ -6954,6 +6912,10 @@
             "target": "Package",
             "version": "[3.3.110.25, )"
           },
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.0.30, )"
+          },
           "Microsoft.AspNetCore.Cors": {
             "target": "Package",
             "version": "[2.2.0, )"
@@ -6965,6 +6927,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.1, )"
+          },
+          "Npgsql": {
+            "target": "Package",
+            "version": "[4.1.3.1, )"
           },
           "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Cytel.Top.Api.Services;
-using Microsoft.AspNetCore.Http;
+﻿using Cytel.Top.Api.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace Cytel.Top.Api.Controllers
 {
