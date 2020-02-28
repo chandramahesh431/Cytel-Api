@@ -16,13 +16,13 @@ namespace Cytel.Top.Api.Services
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        List<notification> GetData(int id);
+        Task<List<notification>> GetData(int id);
         /// <summary>
         /// Interface Method for add notifications
         /// </summary>
         /// <param name="id"></param>
         /// <param name="message"></param>
         /// <returns></returns>
-        void AddData(int id,string message);
+        Task AddData(int id,string message);
     }
 }

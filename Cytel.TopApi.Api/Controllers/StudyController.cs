@@ -45,10 +45,10 @@ namespace Cytel.Top.Api.Controllers
        /// <returns></returns>
         [HttpGet]
         [Route("api/studies")]
-        public IEnumerable<Study> Get()
+        public async  Task<IActionResult> Get()
         {
-            IEnumerable<Study> listAll = _studyService.FindAll();
-            return listAll;
+            var listAll =await _studyService.FindAll();
+            return Ok(listAll);
         }
 
         /// <summary>
@@ -57,11 +57,12 @@ namespace Cytel.Top.Api.Controllers
         /// <param name="_input"></param>
         [HttpPost]
         [Route("api/studies")]
-        public async Task Post(Study _input)
+        public async Task<IActionResult> Post(Study _input)
         {
            // var data = _signalRService.GetData(1);
            await _hub.Clients.All.SendAsync("Send", new List<notification>() { new notification() {id=1,message= _input.StudyName+" started processing" } } );
-            _studyService.Add(_input);
+           await _studyService.Add(_input);
+            return Ok(_input);
            
         }
     }

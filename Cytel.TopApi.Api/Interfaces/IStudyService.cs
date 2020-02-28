@@ -1,5 +1,6 @@
 ﻿using Cytel.Top.Api.Models;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Cytel.Top.Api.Interfaces
 {
@@ -8,10 +9,10 @@ namespace Cytel.Top.Api.Interfaces
     /// </summary>
     public interface IStudyService
     {
-        void Add(Study item);
-        void Remove(int id);
-        void Update(Study item);
-        Study FindByID(int id);
-        IEnumerable<Study> FindAll();
+        Task Add(Study item);
+        Task Remove(int id);
+        Task Update(Study item);
+        Task<Study> FindByID(int id);
+        Task<IEnumerable<Study>> FindAll();
     }
 }

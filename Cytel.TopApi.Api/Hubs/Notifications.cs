@@ -16,9 +16,10 @@ namespace Cytel.Top.Api.Hubs
             _signalR = signalR;
         }
 
-        public List<notification> GetData(int clientId)
+        public async  Task<List<notification>> GetData(int clientId)
         {
-            return _signalR.GetData(clientId);
+            var response=await _signalR.GetData(clientId);
+            return response;
         }
 
         public async Task Send(string message)

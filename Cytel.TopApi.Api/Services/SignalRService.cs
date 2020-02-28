@@ -15,14 +15,15 @@ namespace Cytel.Top.Api.Services
             notificationsList.Add(new notification() { id = 3, message = "Completed Trial Study" });
             notificationsList.Add(new notification() { id = 4, message = "Completed Trial Study" });
         }
-        public List<notification> GetData(int id)
+        public async Task<List<notification>> GetData(int id)
         {
-            return notificationsList.FindAll(x=>x.id==id);
+            var response=notificationsList.FindAll(x=>x.id==id);
+            return response;
         }
 
-        public void AddData(int id,string message)
+        public async Task AddData(int id,string message)
         {
-            notificationsList.Add(new notification() { id = id, message = message });
+           notificationsList.Add(new notification() { id = id, message = message });
         }
     }
 

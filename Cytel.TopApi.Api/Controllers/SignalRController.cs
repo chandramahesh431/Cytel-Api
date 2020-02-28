@@ -43,7 +43,7 @@ namespace Cytel.Top.Api.Controllers
         public async Task<IActionResult> Send(int clientId)
         {
             // _signalR.AddData(clientId,message);
-            var data = _signalRService.GetData(clientId);
+            var data =await _signalRService.GetData(clientId);
             await _hub.Clients.All.SendAsync("Send", data);
             return Ok(new { Message = "Request Completed" });
         }

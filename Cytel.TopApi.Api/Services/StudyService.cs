@@ -8,6 +8,7 @@ using Npgsql;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Cytel.Top.Api.Services
 {
@@ -46,7 +47,7 @@ namespace Cytel.Top.Api.Services
         /// Add Method created to insert entries to the database
         /// </summary>
         /// <param name="item"></param>
-        public void Add(Study item)
+        public async Task  Add(Study item)
         {
             using (IDbConnection dbConnection = Connection)
             {
@@ -57,7 +58,7 @@ namespace Cytel.Top.Api.Services
             //Sends Message to SQS using SQSClient
             using(SQSClient sqsClient = new SQSClient())
             {
-                sqsClient.SendMessageTOSQS(JsonConvert.SerializeObject(item),item.ProtocolID);
+               sqsClient.SendMessageTOSQS(JsonConvert.SerializeObject(item),item.ProtocolID);
             }
 
         }
@@ -66,7 +67,7 @@ namespace Cytel.Top.Api.Services
         /// Method created to Select all Data from the input table
         /// </summary>
         /// <returns></returns>
-        public IEnumerable<Study> FindAll()
+        public async Task<IEnumerable<Study>> FindAll()
         {
             using (IDbConnection dbConnection = Connection)
             {
@@ -80,7 +81,7 @@ namespace Cytel.Top.Api.Services
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public Study FindByID(int id)
+        public async Task<Study> FindByID(int id)
         {
             using (IDbConnection dbConnection = Connection)
             {
@@ -93,7 +94,7 @@ namespace Cytel.Top.Api.Services
         /// Function to remove an entry from input table
         /// </summary>
         /// <param name="id"></param>
-        public void Remove(int id)
+        public async Task Remove(int id)
         {
             using (IDbConnection dbConnection = Connection)
             {
@@ -106,7 +107,7 @@ namespace Cytel.Top.Api.Services
         /// Function created to update an entry in the input table
         /// </summary>
         /// <param name="item"></param>
-        public void Update(Study item)
+        public async Task Update(Study item)
         {
             using (IDbConnection dbConnection = Connection)
             {
