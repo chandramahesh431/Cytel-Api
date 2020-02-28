@@ -25,5 +25,9 @@
     <ProjectReference Include="..\Cytel.Top.SQS\Cytel.Top.SQS.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Hubs\" />
+  </ItemGroup>
+
 
 </Project>

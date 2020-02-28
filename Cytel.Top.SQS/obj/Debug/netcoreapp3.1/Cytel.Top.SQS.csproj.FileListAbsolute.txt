@@ -20,3 +20,11 @@ D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.As
 D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.AssemblyInfo.cs
 D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.dll
 D:\CytelProjects\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.pdb
+D:\Code\CytelApi\Cytel.Top.SQS\bin\Debug\netcoreapp3.1\Cytel.Top.SQS.deps.json
+D:\Code\CytelApi\Cytel.Top.SQS\bin\Debug\netcoreapp3.1\Cytel.Top.SQS.dll
+D:\Code\CytelApi\Cytel.Top.SQS\bin\Debug\netcoreapp3.1\Cytel.Top.SQS.pdb
+D:\Code\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.csprojAssemblyReference.cache
+D:\Code\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.AssemblyInfoInputs.cache
+D:\Code\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.AssemblyInfo.cs
+D:\Code\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.dll
+D:\Code\CytelApi\Cytel.Top.SQS\obj\Debug\netcoreapp3.1\Cytel.Top.SQS.pdb

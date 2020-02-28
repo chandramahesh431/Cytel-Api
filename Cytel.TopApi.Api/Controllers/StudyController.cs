@@ -2,7 +2,10 @@
 using Cytel.Top.Api.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-
+using Microsoft.AspNetCore.SignalR;
+using Cytel.Top.Api.Services;
+using Cytel.Top.Api.Hubs;
+using System.Threading.Tasks;
 
 namespace Cytel.Top.Api.Controllers
 {
@@ -16,14 +19,24 @@ namespace Cytel.Top.Api.Controllers
         /// Study Repository Object
         /// </summary>
         private readonly IStudyService _studyService;
+        /// <summary>
+        /// SignalR Repository Object
+        /// </summary>
+        private readonly ISignalR _signalRService;
+        /// <summary>
+        /// IHub Context Repository Object
+        /// </summary>
+        private readonly Microsoft.AspNetCore.SignalR.IHubContext<Notifications> _hub;
 
         /// <summary>
         /// Injecting the configuration object to the constructor
         /// </summary>
         /// <param name="configuration"></param>
-        public StudyController(IStudyService studyService)
+        public StudyController(IStudyService studyService, Microsoft.AspNetCore.SignalR.IHubContext<Notifications> hub, ISignalR signalRService)
         {
             _studyService = studyService;
+            _hub = hub;
+            _signalRService = signalRService;
         }
 
        /// <summary>
@@ -44,9 +57,12 @@ namespace Cytel.Top.Api.Controllers
         /// <param name="_input"></param>
         [HttpPost]
         [Route("api/studies")]
-        public void Post(Study _input)
+        public async Task Post(Study _input)
         {
+           // var data = _signalRService.GetData(1);
+           await _hub.Clients.All.SendAsync("Send", new List<notification>() { new notification() {id=1,message= _input.StudyName+" started processing" } } );
             _studyService.Add(_input);
+           
         }
     }
 }

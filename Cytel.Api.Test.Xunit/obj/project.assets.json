@@ -9173,19 +9173,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jithendrank\\.nuget\\packages\\": {}
+    "C:\\Users\\chandrag\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CytelProjects\\CytelApi\\Cytel.Api.Test.Xunit\\Cytel.Api.Test.Xunit.csproj",
+      "projectUniqueName": "D:\\Code\\CytelApi\\Cytel.Api.Test.Xunit\\Cytel.Api.Test.Xunit.csproj",
       "projectName": "Cytel.Api.Test.Xunit",
-      "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.Api.Test.Xunit\\Cytel.Api.Test.Xunit.csproj",
-      "packagesPath": "C:\\Users\\jithendrank\\.nuget\\packages\\",
-      "outputPath": "D:\\CytelProjects\\CytelApi\\Cytel.Api.Test.Xunit\\obj\\",
+      "projectPath": "D:\\Code\\CytelApi\\Cytel.Api.Test.Xunit\\Cytel.Api.Test.Xunit.csproj",
+      "packagesPath": "C:\\Users\\chandrag\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\CytelApi\\Cytel.Api.Test.Xunit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jithendrank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chandrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9198,8 +9198,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Api\\Cytel.Top.Api.csproj": {
-              "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Api\\Cytel.Top.Api.csproj"
+            "D:\\Code\\CytelApi\\Cytel.TopApi.Api\\Cytel.Top.Api.csproj": {
+              "projectPath": "D:\\Code\\CytelApi\\Cytel.TopApi.Api\\Cytel.Top.Api.csproj"
             }
           }
         }

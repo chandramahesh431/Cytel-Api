@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Api\\Cytel.Top.Api.csproj": {}
+    "D:\\Code\\CytelApi\\Cytel.TopApi.Api\\Cytel.Top.Api.csproj": {}
   },
   "projects": {
-    "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj": {
+    "D:\\Code\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj",
+        "projectUniqueName": "D:\\Code\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj",
         "projectName": "Cytel.Top.SQS",
-        "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj",
-        "packagesPath": "C:\\Users\\jithendrank\\.nuget\\packages\\",
-        "outputPath": "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\obj\\",
+        "projectPath": "D:\\Code\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj",
+        "packagesPath": "C:\\Users\\chandrag\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\CytelApi\\Cytel.Top.SQS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jithendrank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chandrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,17 +62,17 @@
         }
       }
     },
-    "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Api\\Cytel.Top.Api.csproj": {
+    "D:\\Code\\CytelApi\\Cytel.TopApi.Api\\Cytel.Top.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Api\\Cytel.Top.Api.csproj",
+        "projectUniqueName": "D:\\Code\\CytelApi\\Cytel.TopApi.Api\\Cytel.Top.Api.csproj",
         "projectName": "Cytel.Top.Api",
-        "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Api\\Cytel.Top.Api.csproj",
-        "packagesPath": "C:\\Users\\jithendrank\\.nuget\\packages\\",
-        "outputPath": "D:\\CytelProjects\\CytelApi\\Cytel.TopApi.Api\\obj\\",
+        "projectPath": "D:\\Code\\CytelApi\\Cytel.TopApi.Api\\Cytel.Top.Api.csproj",
+        "packagesPath": "C:\\Users\\chandrag\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\CytelApi\\Cytel.TopApi.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jithendrank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chandrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj": {
-                "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj"
+              "D:\\Code\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj": {
+                "projectPath": "D:\\Code\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj"
               }
             }
           }

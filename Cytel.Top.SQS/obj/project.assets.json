@@ -122,19 +122,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jithendrank\\.nuget\\packages\\": {}
+    "C:\\Users\\chandrag\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj",
+      "projectUniqueName": "D:\\Code\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj",
       "projectName": "Cytel.Top.SQS",
-      "projectPath": "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj",
-      "packagesPath": "C:\\Users\\jithendrank\\.nuget\\packages\\",
-      "outputPath": "D:\\CytelProjects\\CytelApi\\Cytel.Top.SQS\\obj\\",
+      "projectPath": "D:\\Code\\CytelApi\\Cytel.Top.SQS\\Cytel.Top.SQS.csproj",
+      "packagesPath": "C:\\Users\\chandrag\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\CytelApi\\Cytel.Top.SQS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jithendrank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chandrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
